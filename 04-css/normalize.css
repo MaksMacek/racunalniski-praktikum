@@ -40,6 +40,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  color: #026600; 
 }
 
 /* Grouping content
@@ -196,7 +197,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+ -webkit-appearance: button;
 }
 
 /**

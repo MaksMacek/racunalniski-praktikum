@@ -1,9 +1,9 @@
 body {
     /*  Barva pisave pod značko oz. oznako  */
-    color: #333333; 
+      h1 {color: #2dcfbf; 
     /*  Določanje pisave: brskalnik uporabi prvo v seznamu pisav, ki jo ima uporabnik nameščeno.
        Če ni nameščena nobena od naštetih pisav, se uporabi privzeta pisava brskalnika. */
-    font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
+     font-family: Garamond, "Hoefler Text", "Times New Roman", Times, serif;
     /*  Velikost pisave lahko določimo na več načinov.
         Spodnji jo določi glede na velikost pisave v znački, ki je na enem nivoju višje;
         če velikost pisave na zgornjem nivoju ni določena, se določi glede na privzeto velikost pisave v brskalniku. */
@@ -16,9 +16,33 @@ body {
         preostanek pa se enakomerno razdeli med levim in desnim robom  */
     margin: auto;
     /*  Obojestranska poravnava besedila    */
-    text-align: justify;
+    text-align: justify;}
 }
 
+h2 {
+    margin-top: 2em;
+    border-top: 1px;
+    color: #AAAAAA;
+    font-style: solid;
+    padding-top: 1.5em;
+}
+
+#uvod {padding: 2em;
+background-color: rgb(51, 0, 102, 0.1);
+}
+
+.slika {
+  font-size: 0.9em;
+  width: 40%;
+  text-align: left;
+  float: right;
+  margin-left: 2em;
+}
+
+.slika img{
+    width: 100%;
+    height: auto;
+}
 /*  Odstranimo podčrtovanje povezav in outline (ta se včasih pokaže kot kvadratek okrog povezave)  */
 a { text-decoration: none; outline:none; }
 /*  Spremenimo barve povezav: neobiskanih, obiskanih, pod miško in aktivnih */
